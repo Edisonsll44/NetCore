@@ -1,0 +1,5 @@
+/Users/edison.sanchez/Documents/Me/NetCore/NetCore/ClinicMedicalAppointments/ConsoleApp1ClinicMedicalAppointments.Entities/obj/Debug/net9.0/ConsoleApp1ClinicMedicalAppointments.Entities.GeneratedMSBuildEditorConfig.editorconfig
+/Users/edison.sanchez/Documents/Me/NetCore/NetCore/ClinicMedicalAppointments/ConsoleApp1ClinicMedicalAppointments.Entities/obj/Debug/net9.0/ConsoleApp1ClinicMedicalAppointments.Entities.AssemblyInfoInputs.cache
+/Users/edison.sanchez/Documents/Me/NetCore/NetCore/ClinicMedicalAppointments/ConsoleApp1ClinicMedicalAppointments.Entities/obj/Debug/net9.0/ConsoleApp1ClinicMedicalAppointments.Entities.AssemblyInfo.cs
+/Users/edison.sanchez/Documents/Me/NetCore/NetCore/ClinicMedicalAppointments/ConsoleApp1ClinicMedicalAppointments.Entities/obj/Debug/net9.0/ConsoleApp1ClinicMedicalAppointments.Entities.csproj.CoreCompileInputs.cache
+/Users/edison.sanchez/Documents/Me/NetCore/NetCore/ClinicMedicalAppointments/ConsoleApp1ClinicMedicalAppointments.Entities/obj/Debug/net9.0/ConsoleApp1ClinicMedicalAppointments.Entities.sourcelink.json

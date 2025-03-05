@@ -1,0 +1,12 @@
+/Users/edison.sanchez/Documents/Me/NetCore/NetCore/ClinicMedicalAppointments/ClinicMedicalAppointments.Infraestructure/obj/Debug/net9.0/ClinicMedicalAppointments.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/edison.sanchez/Documents/Me/NetCore/NetCore/ClinicMedicalAppointments/ClinicMedicalAppointments.Infraestructure/obj/Debug/net9.0/ClinicMedicalAppointments.Infraestructure.AssemblyInfoInputs.cache
+/Users/edison.sanchez/Documents/Me/NetCore/NetCore/ClinicMedicalAppointments/ClinicMedicalAppointments.Infraestructure/obj/Debug/net9.0/ClinicMedicalAppointments.Infraestructure.AssemblyInfo.cs
+/Users/edison.sanchez/Documents/Me/NetCore/NetCore/ClinicMedicalAppointments/ClinicMedicalAppointments.Infraestructure/obj/Debug/net9.0/ClinicMedicalAppointments.Infraestructure.csproj.CoreCompileInputs.cache
+/Users/edison.sanchez/Documents/Me/NetCore/NetCore/ClinicMedicalAppointments/ClinicMedicalAppointments.Infraestructure/obj/Debug/net9.0/ClinicMedicalAppointments.Infraestructure.sourcelink.json
+/Users/edison.sanchez/Documents/Me/NetCore/NetCore/ClinicMedicalAppointments/ClinicMedicalAppointments.Infraestructure/bin/Debug/net9.0/ClinicMedicalAppointments.Infraestructure.deps.json
+/Users/edison.sanchez/Documents/Me/NetCore/NetCore/ClinicMedicalAppointments/ClinicMedicalAppointments.Infraestructure/bin/Debug/net9.0/ClinicMedicalAppointments.Infraestructure.dll
+/Users/edison.sanchez/Documents/Me/NetCore/NetCore/ClinicMedicalAppointments/ClinicMedicalAppointments.Infraestructure/bin/Debug/net9.0/ClinicMedicalAppointments.Infraestructure.pdb
+/Users/edison.sanchez/Documents/Me/NetCore/NetCore/ClinicMedicalAppointments/ClinicMedicalAppointments.Infraestructure/obj/Debug/net9.0/ClinicMedicalAppointments.Infraestructure.dll
+/Users/edison.sanchez/Documents/Me/NetCore/NetCore/ClinicMedicalAppointments/ClinicMedicalAppointments.Infraestructure/obj/Debug/net9.0/refint/ClinicMedicalAppointments.Infraestructure.dll
+/Users/edison.sanchez/Documents/Me/NetCore/NetCore/ClinicMedicalAppointments/ClinicMedicalAppointments.Infraestructure/obj/Debug/net9.0/ClinicMedicalAppointments.Infraestructure.pdb
+/Users/edison.sanchez/Documents/Me/NetCore/NetCore/ClinicMedicalAppointments/ClinicMedicalAppointments.Infraestructure/obj/Debug/net9.0/ref/ClinicMedicalAppointments.Infraestructure.dll

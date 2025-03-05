@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Y1aIOCYz7KA=",
+  "success": true,
+  "projectFilePath": "/Users/edison.sanchez/Documents/Me/NetCore/NetCore/ClinicMedicalAppointments/ClinicMedicalAppointments.Api/ClinicMedicalAppointments.Api.csproj",
+  "expectedPackageFiles": [
+    "/Users/edison.sanchez/.nuget/packages/microsoft.dotnet.ilcompiler/9.0.2/microsoft.dotnet.ilcompiler.9.0.2.nupkg.sha512",
+    "/Users/edison.sanchez/.nuget/packages/microsoft.net.illink.tasks/9.0.2/microsoft.net.illink.tasks.9.0.2.nupkg.sha512",
+    "/Users/edison.sanchez/.nuget/packages/runtime.osx-x64.microsoft.dotnet.ilcompiler/9.0.2/runtime.osx-x64.microsoft.dotnet.ilcompiler.9.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,12 @@
+/Users/edison.sanchez/Documents/Me/NetCore/NetCore/ClinicMedicalAppointments/ClinicMedicalAppointments.Entities/obj/Debug/net9.0/ClinicMedicalAppointments.Entities.GeneratedMSBuildEditorConfig.editorconfig
+/Users/edison.sanchez/Documents/Me/NetCore/NetCore/ClinicMedicalAppointments/ClinicMedicalAppointments.Entities/obj/Debug/net9.0/ClinicMedicalAppointments.Entities.AssemblyInfoInputs.cache
+/Users/edison.sanchez/Documents/Me/NetCore/NetCore/ClinicMedicalAppointments/ClinicMedicalAppointments.Entities/obj/Debug/net9.0/ClinicMedicalAppointments.Entities.AssemblyInfo.cs
+/Users/edison.sanchez/Documents/Me/NetCore/NetCore/ClinicMedicalAppointments/ClinicMedicalAppointments.Entities/obj/Debug/net9.0/ClinicMedicalAppointments.Entities.csproj.CoreCompileInputs.cache
+/Users/edison.sanchez/Documents/Me/NetCore/NetCore/ClinicMedicalAppointments/ClinicMedicalAppointments.Entities/obj/Debug/net9.0/ClinicMedicalAppointments.Entities.sourcelink.json
+/Users/edison.sanchez/Documents/Me/NetCore/NetCore/ClinicMedicalAppointments/ClinicMedicalAppointments.Entities/bin/Debug/net9.0/ClinicMedicalAppointments.Entities.deps.json
+/Users/edison.sanchez/Documents/Me/NetCore/NetCore/ClinicMedicalAppointments/ClinicMedicalAppointments.Entities/bin/Debug/net9.0/ClinicMedicalAppointments.Entities.dll
+/Users/edison.sanchez/Documents/Me/NetCore/NetCore/ClinicMedicalAppointments/ClinicMedicalAppointments.Entities/bin/Debug/net9.0/ClinicMedicalAppointments.Entities.pdb
+/Users/edison.sanchez/Documents/Me/NetCore/NetCore/ClinicMedicalAppointments/ClinicMedicalAppointments.Entities/obj/Debug/net9.0/ClinicMedicalAppointments.Entities.dll
+/Users/edison.sanchez/Documents/Me/NetCore/NetCore/ClinicMedicalAppointments/ClinicMedicalAppointments.Entities/obj/Debug/net9.0/refint/ClinicMedicalAppointments.Entities.dll
+/Users/edison.sanchez/Documents/Me/NetCore/NetCore/ClinicMedicalAppointments/ClinicMedicalAppointments.Entities/obj/Debug/net9.0/ClinicMedicalAppointments.Entities.pdb
+/Users/edison.sanchez/Documents/Me/NetCore/NetCore/ClinicMedicalAppointments/ClinicMedicalAppointments.Entities/obj/Debug/net9.0/ref/ClinicMedicalAppointments.Entities.dll

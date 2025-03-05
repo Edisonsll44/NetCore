@@ -1,0 +1,12 @@
+/Users/edison.sanchez/Documents/Me/NetCore/NetCore/ClinicMedicalAppointments/ClinicMedicalAppointments.Application/obj/Debug/net9.0/ClinicMedicalAppointments.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/edison.sanchez/Documents/Me/NetCore/NetCore/ClinicMedicalAppointments/ClinicMedicalAppointments.Application/obj/Debug/net9.0/ClinicMedicalAppointments.Application.AssemblyInfoInputs.cache
+/Users/edison.sanchez/Documents/Me/NetCore/NetCore/ClinicMedicalAppointments/ClinicMedicalAppointments.Application/obj/Debug/net9.0/ClinicMedicalAppointments.Application.AssemblyInfo.cs
+/Users/edison.sanchez/Documents/Me/NetCore/NetCore/ClinicMedicalAppointments/ClinicMedicalAppointments.Application/obj/Debug/net9.0/ClinicMedicalAppointments.Application.csproj.CoreCompileInputs.cache
+/Users/edison.sanchez/Documents/Me/NetCore/NetCore/ClinicMedicalAppointments/ClinicMedicalAppointments.Application/obj/Debug/net9.0/ClinicMedicalAppointments.Application.sourcelink.json
+/Users/edison.sanchez/Documents/Me/NetCore/NetCore/ClinicMedicalAppointments/ClinicMedicalAppointments.Application/bin/Debug/net9.0/ClinicMedicalAppointments.Application.deps.json
+/Users/edison.sanchez/Documents/Me/NetCore/NetCore/ClinicMedicalAppointments/ClinicMedicalAppointments.Application/bin/Debug/net9.0/ClinicMedicalAppointments.Application.dll
+/Users/edison.sanchez/Documents/Me/NetCore/NetCore/ClinicMedicalAppointments/ClinicMedicalAppointments.Application/bin/Debug/net9.0/ClinicMedicalAppointments.Application.pdb
+/Users/edison.sanchez/Documents/Me/NetCore/NetCore/ClinicMedicalAppointments/ClinicMedicalAppointments.Application/obj/Debug/net9.0/ClinicMedicalAppointments.Application.dll
+/Users/edison.sanchez/Documents/Me/NetCore/NetCore/ClinicMedicalAppointments/ClinicMedicalAppointments.Application/obj/Debug/net9.0/refint/ClinicMedicalAppointments.Application.dll
+/Users/edison.sanchez/Documents/Me/NetCore/NetCore/ClinicMedicalAppointments/ClinicMedicalAppointments.Application/obj/Debug/net9.0/ClinicMedicalAppointments.Application.pdb
+/Users/edison.sanchez/Documents/Me/NetCore/NetCore/ClinicMedicalAppointments/ClinicMedicalAppointments.Application/obj/Debug/net9.0/ref/ClinicMedicalAppointments.Application.dll
