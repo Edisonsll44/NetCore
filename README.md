@@ -28,7 +28,7 @@ Para crear una nueva migración, seguir estos pasos:
        --startup-project ClinicMedicalAppointments.API
    ```
 
-   ### 📌 **1️⃣ Ejecutar una Migración o actualizar la BDD**
+### 📌 **1️⃣ Ejecutar una Migración o actualizar la BDD**
 Para crear actualizar la BDD, seguir estos pasos:
 
 1. Ubicarse en la carpeta raíz del proyecto.
