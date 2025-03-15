@@ -15,28 +15,25 @@ El proyecto está desarrollado en **.NET 9.0** y utiliza las siguientes librerí
 
 ---
 
-## 🔧 Configuración de Librerías
+## 🛠 Gestión de Migraciones con Entity Framework Core
 
-### 📌 **Swagger**
-Se ha configurado **Swagger** para exponer la documentación de la API.
+### 📌 **1️⃣ Crear una Migración**
+Para crear una nueva migración, seguir estos pasos:
 
-📄 **Configuración en `Program.cs`**
-```csharp
-// Agregar Swagger
-builder.Services.AddOpenApi();
+1. Ubicarse en la carpeta raíz del proyecto.
+2. Ejecutar el siguiente comando:
+   ```sh
+   dotnet ef migrations add UpdateUserEntity \
+       --project ClinicMedicalAppointments.Infraestructure \
+       --startup-project ClinicMedicalAppointments.API
+   ```
 
-var app = builder.Build();
+   ### 📌 **1️⃣ Ejecutar una Migración o actualizar la BDD**
+Para crear actualizar la BDD, seguir estos pasos:
 
-// Activar Swagger en la aplicación
-app.UseSwagger();
-app.UseSwaggerUI(options =>
-{
-    options.SwaggerEndpoint("/swagger/v1/swagger.json", "Clinic Medical Appointments API v1");
-    options.RoutePrefix = "swagger";
-});
-
-// Habilitar Swagger en modo desarrollo
-if (app.Environment.IsDevelopment())
-{
-    app.MapOpenApi();
-}
+1. Ubicarse en la carpeta raíz del proyecto.
+2. Ejecutar el siguiente comando:
+   ```sh
+    dotnet ef database update \                                                         
+    --project ClinicMedicalAppointments.Infraestructure \
+    --startup-project ClinicMedicalAppointments.API 
