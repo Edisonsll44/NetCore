@@ -1,17 +1,19 @@
-namespace ClinicMedicalAppointments.Entities.Entities;
+namespace ClinicMedicalAppointments.Entities;
 
 public class GenericEntity
 {
     public Guid Id { get; set; }
-    public bool Estado { get; set; }
-    public DateTime FechaCreacion { get; set; }
-    public DateTime FechaModificacion { get; set; }
+    public string Estado { get; set; }
+    public DateTime FechaCreacion { get; private set; } = DateTime.UtcNow;
+    public DateTime FechaModificacion { get; private set; } = DateTime.UtcNow;
 
-    public GenericEntity(Guid id, bool estado, DateTime fechaCreacion, DateTime fechaModificacion)
+    protected GenericEntity(Guid id, string estado)
     {
         Id = id;
-        Estado = estado;
-        FechaCreacion = fechaCreacion;
-        FechaModificacion = fechaModificacion;  
+        Estado = estado; 
+    }
+    public void SetUpdateDate()
+    {
+        FechaModificacion = DateTime.UtcNow;
     }
 }

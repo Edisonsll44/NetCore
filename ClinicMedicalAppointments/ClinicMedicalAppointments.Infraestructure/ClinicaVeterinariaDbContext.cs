@@ -1,4 +1,4 @@
-using ClinicMedicalAppointments.Entities.Entities;
+using ClinicMedicalAppointments.Entities;
 using ClinicMedicalAppointments.Infraestructure.Configuration;
 using Microsoft.EntityFrameworkCore;
 

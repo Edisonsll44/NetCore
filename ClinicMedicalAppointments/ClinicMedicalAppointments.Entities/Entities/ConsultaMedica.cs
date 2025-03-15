@@ -1,4 +1,4 @@
-namespace ClinicMedicalAppointments.Entities.Entities;
+namespace ClinicMedicalAppointments.Entities;
 
 public class ConsultaMedica : GenericEntity
 {
@@ -16,8 +16,8 @@ public class ConsultaMedica : GenericEntity
     public Guid HistoriaId { get; set; }
     public HistoriaClinica HistoriaClinica { get; set; }
 
-    public ConsultaMedica(Guid id, bool estado, DateTime fechaCreacion, DateTime fechaModificacion, string motivoConsulta, string vacunas, string desparasitacion, DateTime fechaDesparasitacion, string estadoReproductivo, string procedencia, string diagnostico, string pronostico, string observaciones, Guid recetaId, Guid historiaId) 
-        : base(id, estado, fechaCreacion, fechaModificacion)
+    public ConsultaMedica(Guid id, string estado, DateTime fechaCreacion, DateTime fechaModificacion, string motivoConsulta, string vacunas, string desparasitacion, DateTime fechaDesparasitacion, string estadoReproductivo, string procedencia, string diagnostico, string pronostico, string observaciones, Guid recetaId, Guid historiaId) 
+        : base(id, estado)
     {
         MotivoConsulta = motivoConsulta;
         Vacunas = vacunas;

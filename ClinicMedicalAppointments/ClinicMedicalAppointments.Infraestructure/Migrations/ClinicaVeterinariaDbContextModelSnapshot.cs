@@ -22,7 +22,7 @@ namespace ClinicMedicalAppointments.Infraestructure.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
-            modelBuilder.Entity("ClinicMedicalAppointments.Entities.Entities.ConsultaMedica", b =>
+            modelBuilder.Entity("ClinicMedicalAppointments.Entities.ConsultaMedica", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -36,8 +36,9 @@ namespace ClinicMedicalAppointments.Infraestructure.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<bool>("Estado")
-                        .HasColumnType("boolean");
+                    b.Property<string>("Estado")
+                        .IsRequired()
+                        .HasColumnType("text");
 
                     b.Property<string>("EstadoReproductivo")
                         .IsRequired()
@@ -93,14 +94,15 @@ namespace ClinicMedicalAppointments.Infraestructure.Migrations
                     b.ToTable("consulta_medica", (string)null);
                 });
 
-            modelBuilder.Entity("ClinicMedicalAppointments.Entities.Entities.Especialidad", b =>
+            modelBuilder.Entity("ClinicMedicalAppointments.Entities.Especialidad", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
-                    b.Property<bool>("Estado")
-                        .HasColumnType("boolean");
+                    b.Property<string>("Estado")
+                        .IsRequired()
+                        .HasColumnType("text");
 
                     b.Property<DateTime>("FechaCreacion")
                         .HasColumnType("timestamp with time zone");
@@ -117,14 +119,15 @@ namespace ClinicMedicalAppointments.Infraestructure.Migrations
                     b.ToTable("especialidad", (string)null);
                 });
 
-            modelBuilder.Entity("ClinicMedicalAppointments.Entities.Entities.HistoriaClinica", b =>
+            modelBuilder.Entity("ClinicMedicalAppointments.Entities.HistoriaClinica", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
-                    b.Property<bool>("Estado")
-                        .HasColumnType("boolean");
+                    b.Property<string>("Estado")
+                        .IsRequired()
+                        .HasColumnType("text");
 
                     b.Property<DateTime>("FechaAdmision")
                         .HasColumnType("timestamp with time zone");
@@ -150,7 +153,7 @@ namespace ClinicMedicalAppointments.Infraestructure.Migrations
                     b.ToTable("historia_clinica", (string)null);
                 });
 
-            modelBuilder.Entity("ClinicMedicalAppointments.Entities.Entities.Mascota", b =>
+            modelBuilder.Entity("ClinicMedicalAppointments.Entities.Mascota", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -164,8 +167,9 @@ namespace ClinicMedicalAppointments.Infraestructure.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<bool>("Estado")
-                        .HasColumnType("boolean");
+                    b.Property<string>("Estado")
+                        .IsRequired()
+                        .HasColumnType("text");
 
                     b.Property<DateTime>("FechaCreacion")
                         .HasColumnType("timestamp with time zone");
@@ -199,7 +203,7 @@ namespace ClinicMedicalAppointments.Infraestructure.Migrations
                     b.ToTable("mascota", (string)null);
                 });
 
-            modelBuilder.Entity("ClinicMedicalAppointments.Entities.Entities.MedicoVeterinario", b =>
+            modelBuilder.Entity("ClinicMedicalAppointments.Entities.MedicoVeterinario", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -224,8 +228,9 @@ namespace ClinicMedicalAppointments.Infraestructure.Migrations
                     b.Property<Guid>("EspecialidadId")
                         .HasColumnType("uuid");
 
-                    b.Property<bool>("Estado")
-                        .HasColumnType("boolean");
+                    b.Property<string>("Estado")
+                        .IsRequired()
+                        .HasColumnType("text");
 
                     b.Property<DateTime>("FechaCreacion")
                         .HasColumnType("timestamp with time zone");
@@ -252,7 +257,7 @@ namespace ClinicMedicalAppointments.Infraestructure.Migrations
                     b.ToTable("medico_veterinario", (string)null);
                 });
 
-            modelBuilder.Entity("ClinicMedicalAppointments.Entities.Entities.Propietario", b =>
+            modelBuilder.Entity("ClinicMedicalAppointments.Entities.Propietario", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -274,8 +279,9 @@ namespace ClinicMedicalAppointments.Infraestructure.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<bool>("Estado")
-                        .HasColumnType("boolean");
+                    b.Property<string>("Estado")
+                        .IsRequired()
+                        .HasColumnType("text");
 
                     b.Property<DateTime>("FechaCreacion")
                         .HasColumnType("timestamp with time zone");
@@ -296,14 +302,15 @@ namespace ClinicMedicalAppointments.Infraestructure.Migrations
                     b.ToTable("propietario", (string)null);
                 });
 
-            modelBuilder.Entity("ClinicMedicalAppointments.Entities.Entities.Raza", b =>
+            modelBuilder.Entity("ClinicMedicalAppointments.Entities.Raza", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
-                    b.Property<bool>("Estado")
-                        .HasColumnType("boolean");
+                    b.Property<string>("Estado")
+                        .IsRequired()
+                        .HasColumnType("text");
 
                     b.Property<DateTime>("FechaCreacion")
                         .HasColumnType("timestamp with time zone");
@@ -320,14 +327,15 @@ namespace ClinicMedicalAppointments.Infraestructure.Migrations
                     b.ToTable("raza", (string)null);
                 });
 
-            modelBuilder.Entity("ClinicMedicalAppointments.Entities.Entities.RecetaMedica", b =>
+            modelBuilder.Entity("ClinicMedicalAppointments.Entities.RecetaMedica", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
-                    b.Property<bool>("Estado")
-                        .HasColumnType("boolean");
+                    b.Property<string>("Estado")
+                        .IsRequired()
+                        .HasColumnType("text");
 
                     b.Property<DateTime>("Fecha")
                         .HasColumnType("timestamp with time zone");
@@ -347,7 +355,7 @@ namespace ClinicMedicalAppointments.Infraestructure.Migrations
                     b.ToTable("receta_medica", (string)null);
                 });
 
-            modelBuilder.Entity("ClinicMedicalAppointments.Entities.Entities.Rol", b =>
+            modelBuilder.Entity("ClinicMedicalAppointments.Entities.Rol", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -357,8 +365,9 @@ namespace ClinicMedicalAppointments.Infraestructure.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<bool>("Estado")
-                        .HasColumnType("boolean");
+                    b.Property<string>("Estado")
+                        .IsRequired()
+                        .HasColumnType("text");
 
                     b.Property<DateTime>("FechaCreacion")
                         .HasColumnType("timestamp with time zone");
@@ -371,13 +380,27 @@ namespace ClinicMedicalAppointments.Infraestructure.Migrations
                     b.ToTable("rol", (string)null);
                 });
 
-            modelBuilder.Entity("ClinicMedicalAppointments.Entities.Entities.Usuario", b =>
+            modelBuilder.Entity("ClinicMedicalAppointments.Entities.Usuario", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uuid");
 
-                    b.Property<string>("Contrasena")
+                    b.Property<bool>("Activado")
+                        .HasColumnType("boolean");
+
+                    b.Property<string>("Apellido")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<bool>("Bloqueado")
+                        .HasColumnType("boolean");
+
+                    b.Property<string>("Celular")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Clave")
                         .IsRequired()
                         .HasColumnType("text");
 
@@ -385,8 +408,12 @@ namespace ClinicMedicalAppointments.Infraestructure.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<bool>("Estado")
-                        .HasColumnType("boolean");
+                    b.Property<string>("Estado")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<DateTime>("FechaActivacion")
+                        .HasColumnType("timestamp with time zone");
 
                     b.Property<DateTime>("FechaCreacion")
                         .HasColumnType("timestamp with time zone");
@@ -394,12 +421,37 @@ namespace ClinicMedicalAppointments.Infraestructure.Migrations
                     b.Property<DateTime>("FechaModificacion")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<string>("NombreUsuario")
+                    b.Property<string>("Genero")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Identificacion")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<short>("IntentosFallidos")
+                        .HasColumnType("smallint");
+
+                    b.Property<Guid>("KeyToken")
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<bool>("OlvidoContasenia")
+                        .HasColumnType("boolean");
+
+                    b.Property<string>("RefreshToken")
                         .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<Guid>("RolId")
                         .HasColumnType("uuid");
+
+                    b.Property<string>("Token")
+                        .IsRequired()
+                        .HasColumnType("text");
 
                     b.HasKey("Id");
 
@@ -408,15 +460,15 @@ namespace ClinicMedicalAppointments.Infraestructure.Migrations
                     b.ToTable("usuario", (string)null);
                 });
 
-            modelBuilder.Entity("ClinicMedicalAppointments.Entities.Entities.ConsultaMedica", b =>
+            modelBuilder.Entity("ClinicMedicalAppointments.Entities.ConsultaMedica", b =>
                 {
-                    b.HasOne("ClinicMedicalAppointments.Entities.Entities.HistoriaClinica", "HistoriaClinica")
+                    b.HasOne("ClinicMedicalAppointments.Entities.HistoriaClinica", "HistoriaClinica")
                         .WithMany("ConsultasMedicas")
                         .HasForeignKey("HistoriaClinicaId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("ClinicMedicalAppointments.Entities.Entities.RecetaMedica", "RecetaMedica")
+                    b.HasOne("ClinicMedicalAppointments.Entities.RecetaMedica", "RecetaMedica")
                         .WithMany("ConsultasMedicas")
                         .HasForeignKey("RecetaMedicaId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -427,15 +479,15 @@ namespace ClinicMedicalAppointments.Infraestructure.Migrations
                     b.Navigation("RecetaMedica");
                 });
 
-            modelBuilder.Entity("ClinicMedicalAppointments.Entities.Entities.HistoriaClinica", b =>
+            modelBuilder.Entity("ClinicMedicalAppointments.Entities.HistoriaClinica", b =>
                 {
-                    b.HasOne("ClinicMedicalAppointments.Entities.Entities.Mascota", "Mascota")
+                    b.HasOne("ClinicMedicalAppointments.Entities.Mascota", "Mascota")
                         .WithMany("HistoriasClinicas")
                         .HasForeignKey("MascotaId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("ClinicMedicalAppointments.Entities.Entities.MedicoVeterinario", "MedicoVeterinario")
+                    b.HasOne("ClinicMedicalAppointments.Entities.MedicoVeterinario", "MedicoVeterinario")
                         .WithMany("HistoriasClinicas")
                         .HasForeignKey("MedicoVeterinarioId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -446,15 +498,15 @@ namespace ClinicMedicalAppointments.Infraestructure.Migrations
                     b.Navigation("MedicoVeterinario");
                 });
 
-            modelBuilder.Entity("ClinicMedicalAppointments.Entities.Entities.Mascota", b =>
+            modelBuilder.Entity("ClinicMedicalAppointments.Entities.Mascota", b =>
                 {
-                    b.HasOne("ClinicMedicalAppointments.Entities.Entities.Propietario", "Propietario")
+                    b.HasOne("ClinicMedicalAppointments.Entities.Propietario", "Propietario")
                         .WithMany("Mascotas")
                         .HasForeignKey("PropietarioId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("ClinicMedicalAppointments.Entities.Entities.Raza", "Raza")
+                    b.HasOne("ClinicMedicalAppointments.Entities.Raza", "Raza")
                         .WithMany("Mascotas")
                         .HasForeignKey("RazaId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -465,15 +517,15 @@ namespace ClinicMedicalAppointments.Infraestructure.Migrations
                     b.Navigation("Raza");
                 });
 
-            modelBuilder.Entity("ClinicMedicalAppointments.Entities.Entities.MedicoVeterinario", b =>
+            modelBuilder.Entity("ClinicMedicalAppointments.Entities.MedicoVeterinario", b =>
                 {
-                    b.HasOne("ClinicMedicalAppointments.Entities.Entities.Especialidad", "Especialidad")
+                    b.HasOne("ClinicMedicalAppointments.Entities.Especialidad", "Especialidad")
                         .WithMany("MedicosVeterinarios")
                         .HasForeignKey("EspecialidadId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("ClinicMedicalAppointments.Entities.Entities.Usuario", "Usuario")
+                    b.HasOne("ClinicMedicalAppointments.Entities.Usuario", "Usuario")
                         .WithMany("MedicosVeterinarios")
                         .HasForeignKey("UsuarioId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -484,9 +536,9 @@ namespace ClinicMedicalAppointments.Infraestructure.Migrations
                     b.Navigation("Usuario");
                 });
 
-            modelBuilder.Entity("ClinicMedicalAppointments.Entities.Entities.Usuario", b =>
+            modelBuilder.Entity("ClinicMedicalAppointments.Entities.Usuario", b =>
                 {
-                    b.HasOne("ClinicMedicalAppointments.Entities.Entities.Rol", "Rol")
+                    b.HasOne("ClinicMedicalAppointments.Entities.Rol", "Rol")
                         .WithMany("Usuarios")
                         .HasForeignKey("RolId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -495,47 +547,47 @@ namespace ClinicMedicalAppointments.Infraestructure.Migrations
                     b.Navigation("Rol");
                 });
 
-            modelBuilder.Entity("ClinicMedicalAppointments.Entities.Entities.Especialidad", b =>
+            modelBuilder.Entity("ClinicMedicalAppointments.Entities.Especialidad", b =>
                 {
                     b.Navigation("MedicosVeterinarios");
                 });
 
-            modelBuilder.Entity("ClinicMedicalAppointments.Entities.Entities.HistoriaClinica", b =>
+            modelBuilder.Entity("ClinicMedicalAppointments.Entities.HistoriaClinica", b =>
                 {
                     b.Navigation("ConsultasMedicas");
                 });
 
-            modelBuilder.Entity("ClinicMedicalAppointments.Entities.Entities.Mascota", b =>
+            modelBuilder.Entity("ClinicMedicalAppointments.Entities.Mascota", b =>
                 {
                     b.Navigation("HistoriasClinicas");
                 });
 
-            modelBuilder.Entity("ClinicMedicalAppointments.Entities.Entities.MedicoVeterinario", b =>
+            modelBuilder.Entity("ClinicMedicalAppointments.Entities.MedicoVeterinario", b =>
                 {
                     b.Navigation("HistoriasClinicas");
                 });
 
-            modelBuilder.Entity("ClinicMedicalAppointments.Entities.Entities.Propietario", b =>
+            modelBuilder.Entity("ClinicMedicalAppointments.Entities.Propietario", b =>
                 {
                     b.Navigation("Mascotas");
                 });
 
-            modelBuilder.Entity("ClinicMedicalAppointments.Entities.Entities.Raza", b =>
+            modelBuilder.Entity("ClinicMedicalAppointments.Entities.Raza", b =>
                 {
                     b.Navigation("Mascotas");
                 });
 
-            modelBuilder.Entity("ClinicMedicalAppointments.Entities.Entities.RecetaMedica", b =>
+            modelBuilder.Entity("ClinicMedicalAppointments.Entities.RecetaMedica", b =>
                 {
                     b.Navigation("ConsultasMedicas");
                 });
 
-            modelBuilder.Entity("ClinicMedicalAppointments.Entities.Entities.Rol", b =>
+            modelBuilder.Entity("ClinicMedicalAppointments.Entities.Rol", b =>
                 {
                     b.Navigation("Usuarios");
                 });
 
-            modelBuilder.Entity("ClinicMedicalAppointments.Entities.Entities.Usuario", b =>
+            modelBuilder.Entity("ClinicMedicalAppointments.Entities.Usuario", b =>
                 {
                     b.Navigation("MedicosVeterinarios");
                 });

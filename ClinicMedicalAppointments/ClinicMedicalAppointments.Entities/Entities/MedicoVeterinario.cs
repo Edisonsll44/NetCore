@@ -1,4 +1,4 @@
-namespace ClinicMedicalAppointments.Entities.Entities;
+namespace ClinicMedicalAppointments.Entities;
 
 public class MedicoVeterinario : GenericEntity
 {
@@ -14,8 +14,8 @@ public class MedicoVeterinario : GenericEntity
     public Usuario Usuario { get; set; }
     public ICollection<HistoriaClinica> HistoriasClinicas { get; set; }
 
-    public MedicoVeterinario(Guid id, bool estado, DateTime fechaCreacion, DateTime fechaModificacion, string cedula, string nombre, string apellido, DateTime fechaNacimiento, string correo, string celular, Guid especialidadId, Guid usuarioId) 
-        : base(id, estado, fechaCreacion, fechaModificacion)
+    public MedicoVeterinario(Guid id, string estado, DateTime fechaCreacion, DateTime fechaModificacion, string cedula, string nombre, string apellido, DateTime fechaNacimiento, string correo, string celular, Guid especialidadId, Guid usuarioId) 
+        : base(id, estado)
     {
         Cedula = cedula;
         Nombre = nombre;

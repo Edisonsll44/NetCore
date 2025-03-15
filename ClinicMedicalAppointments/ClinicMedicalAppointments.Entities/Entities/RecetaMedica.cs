@@ -1,4 +1,4 @@
-namespace ClinicMedicalAppointments.Entities.Entities;
+namespace ClinicMedicalAppointments.Entities;
 
 public class RecetaMedica : GenericEntity
 {
@@ -6,8 +6,8 @@ public class RecetaMedica : GenericEntity
     public string Prescripcion { get; set; }
     public ICollection<ConsultaMedica> ConsultasMedicas { get; set; }
 
-    public RecetaMedica(Guid id, bool estado, DateTime fechaCreacion, DateTime fechaModificacion, DateTime fecha, string prescripcion) 
-        : base(id, estado, fechaCreacion, fechaModificacion)
+    public RecetaMedica(Guid id, string estado, DateTime fechaCreacion, DateTime fechaModificacion, DateTime fecha, string prescripcion) 
+        : base(id, estado)
     {
         Fecha = fecha;
         Prescripcion = prescripcion;

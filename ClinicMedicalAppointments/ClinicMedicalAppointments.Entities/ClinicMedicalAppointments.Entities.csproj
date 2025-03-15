@@ -8,8 +8,4 @@
         <RootNamespace>ClinicMedicalAppointments.Entities</RootNamespace>
     </PropertyGroup>
 
-    <ItemGroup>
-      <Folder Include="Dtos\" />
-    </ItemGroup>
-
 </Project>

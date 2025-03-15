@@ -1,4 +1,4 @@
-namespace ClinicMedicalAppointments.Entities.Entities;
+namespace ClinicMedicalAppointments.Entities;
 
 public class Propietario : GenericEntity
 {
@@ -10,8 +10,8 @@ public class Propietario : GenericEntity
     public string Correo { get; set; }
     public ICollection<Mascota> Mascotas { get; set; }
 
-    public Propietario(Guid id, bool estado, DateTime fechaCreacion, DateTime fechaModificacion, string nombrePropietario, string apellidoPropietario, string direccion, string telefono, string ciudad, string correo) 
-        : base(id, estado, fechaCreacion, fechaModificacion)
+    public Propietario(Guid id, string estado, DateTime fechaCreacion, DateTime fechaModificacion, string nombrePropietario, string apellidoPropietario, string direccion, string telefono, string ciudad, string correo) 
+        : base(id, estado)
     {
         NombrePropietario = nombrePropietario;
         ApellidoPropietario = apellidoPropietario;

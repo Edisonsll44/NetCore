@@ -10,3 +10,9 @@
 /Users/edison.sanchez/Documents/Me/NetCore/NetCore/ClinicMedicalAppointments/ClinicMedicalAppointments.Application/obj/Debug/net9.0/refint/ClinicMedicalAppointments.Application.dll
 /Users/edison.sanchez/Documents/Me/NetCore/NetCore/ClinicMedicalAppointments/ClinicMedicalAppointments.Application/obj/Debug/net9.0/ClinicMedicalAppointments.Application.pdb
 /Users/edison.sanchez/Documents/Me/NetCore/NetCore/ClinicMedicalAppointments/ClinicMedicalAppointments.Application/obj/Debug/net9.0/ref/ClinicMedicalAppointments.Application.dll
+/Users/edison.sanchez/Documents/Me/NetCore/NetCore/ClinicMedicalAppointments/ClinicMedicalAppointments.Application/bin/Debug/net9.0/ClinicMedicalAppointments.Entities.dll
+/Users/edison.sanchez/Documents/Me/NetCore/NetCore/ClinicMedicalAppointments/ClinicMedicalAppointments.Application/bin/Debug/net9.0/ClinicMedicalAppointments.Infraestructure.dll
+/Users/edison.sanchez/Documents/Me/NetCore/NetCore/ClinicMedicalAppointments/ClinicMedicalAppointments.Application/bin/Debug/net9.0/ClinicMedicalAppointments.Entities.pdb
+/Users/edison.sanchez/Documents/Me/NetCore/NetCore/ClinicMedicalAppointments/ClinicMedicalAppointments.Application/bin/Debug/net9.0/ClinicMedicalAppointments.Infraestructure.pdb
+/Users/edison.sanchez/Documents/Me/NetCore/NetCore/ClinicMedicalAppointments/ClinicMedicalAppointments.Application/obj/Debug/net9.0/ClinicMedicalAppointments.Application.csproj.AssemblyReference.cache
+/Users/edison.sanchez/Documents/Me/NetCore/NetCore/ClinicMedicalAppointments/ClinicMedicalAppointments.Application/obj/Debug/net9.0/ClinicMe.7FA87A06.Up2Date
